@@ -10,6 +10,7 @@ Diese Übersicht zeigt ausschließlich den **jüngsten Messwert** jedes Akkumode
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- |
 | **Serie A** (Beispiel) | 2026-09 | `A1-001` | Neu | **3000 mAh** / 3000 mAh | 🟢 100% | [🔎 Alle Zyklen & Graphen](./serie-A/modell-A1/) |
 | **Serie B** (Beispiel) | 2026-09 | `A1-001` | Neu | **5000 mAh** / 5000 mAh | 🟢 100% | [🔎 Alle Zyklen & Graphen](./serie-B/modell-A1/) |
+| **GAONENG GNB 3S** | 11.1 V | 3500 mAh | 70C | *wird ermittelt* | 🟢 | [🔎 Alle Messungen & Graphen](./GAONENG/GNB_3S_3500_70C/) |
 
 ---
 
