@@ -8,7 +8,7 @@ Hier werden die Serienstreuung fabrikneuer Akkus sowie die individuellen Langzei
 > [!IMPORTANT]
 > Um die Vergleichbarkeit aller Messungen zu garantieren, werden alle Tests mit exakt denselben Parametern durchgeführt.
 
-![Globale Test-Einstellungen](./assets/global_settings.png)
+![Globale Test-Einstellungen](./assets/global_settings.JPG)
 
 * **Lade-Abschaltspannung:** 4.20 V pro Zelle (12.6 V Gesamt)
 * **Entlade-Abschaltspannung:** 3.30 V pro Zelle (9.9 V Gesamt)
@@ -21,7 +21,7 @@ Diese Tabelle vergleicht unterschiedliche Akkus derselben Serie im Neuzustand, u
 
 | Akku-ID | Kauf-/Prüfdatum | DC-Ri (Gesamt) | Gemessene Kapazität | Echte C-Rate | Link zum Einzel-Graph |
 | :--- | :---: | :---: | :--- | :--- | :--- |
-| `GNB3S-01` | 2026-09-09 | **3 mOhm** | *folgt* | *folgt* | [🔍 Graph anzeigen](./assets/GNB3S-01_neu_graph.png) |
+| `GNB3S-01` | 2026-09-09 | **3 mOhm** | *folgt* | *folgt* | [🔍 Graph anzeigen](./assets/GNB3S-01_neu_graph.JPG) |
 | `GNB3S-02` | 2026-09-09 | **3.2 mOhm** | *folgt* | *folgt* | [🔍 Graph anzeigen](./assets/GNB3S-02_neu_graph.png) |
 | `GNB3S-03` | 2026-10-12 | *folgt* | *folgt* | *folgt* | *ausstehend* |
 
