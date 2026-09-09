@@ -1,19 +1,32 @@
-# 🔋 Akku-Testdatenbank – Aktueller Status
+# 🔋 Akku-Testdatenbank – Bestwerte & Übersicht
 
-Diese Übersicht zeigt ausschließlich den **jüngsten Messwert** jedes Akkumodells.
-
----
-
-## 📊 Aktueller Zustand aller Serien
-
-| Serie / Modell | Letztes Prüfdatum | Akku-ID | Zyklen / Alter | Kapazität (Aktuell) | Zustand | Historie & Details |
-| :--- | :--- | :--- | :--- | :--- | :---: | :--- |
-| **Serie A** (Beispiel) | 2026-09 | `A1-001` | Neu | **3000 mAh** / 3000 mAh | 🟢 100% | [🔎 Alle Zyklen & Graphen](./serie-A/modell-A1/) |
-| **Serie B** (Beispiel) | 2026-09 | `A1-001` | Neu | **5000 mAh** / 5000 mAh | 🟢 100% | [🔎 Alle Zyklen & Graphen](./serie-B/modell-A1/) |
-| **GAONENG GNB 3S** | 11.1 V | 3500 mAh | 70C | *wird ermittelt* | 🟢 | [🔎 Alle Messungen & Graphen](./GAONENG/GNB_3S_3500_70C/) |
+Diese Übersicht zeigt den optimalen Ziel-Zustand sowie die aktuellsten Eckdaten aller getesteten Akku-Serien.
 
 ---
 
-## 🛠️ Standard Test-Setup
-* **Tester:** [Dein Testgerät eintragen, z. B. SkyRC MC3000]
-* **Einstellungen:** Ladung bis 4.2V, Entladung bis 2.8V.
+## 🏎️ High-Performance (Echte C-Rate: 40C+)
+
+| Serie / Modell | Nenn-Kapazität | DC-Ri | Echte C-Rate (Test) | Zustand | Letztes Prüfdatum | Details & Historie |
+| :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **Serie B (Modell B1 2500mAh 50C)** | 2500 mAh | **8 mOhm** | 45C | 🟢 Top | 2026-08-15 | [🔎 Alle Messungen & Graphen](./serie-B/modell-B1/) |
+
+---
+
+## ✈️ Mid-Performance (Echte C-Rate: 20C - 39C)
+
+| Serie / Modell | Nenn-Kapazität | DC-Ri | Echte C-Rate (Test) | Zustand | Letztes Prüfdatum | Details & Historie |
+| :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **Serie A (Modell A1 3000mAh 30C)** | 3000 mAh | **12 mOhm** | 25C | 🟢 Top | 2026-09-05 | [🔎 Alle Messungen & Graphen](./serie-A/modell-A1/) |
+
+---
+
+## ⏳ In der Auswertung (Echte C-Rate ausstehend)
+
+| Serie / Modell | Nenn-Kapazität | DC-Ri | Echte C-Rate (Test) | Zustand | Letztes Prüfdatum | Details & Historie |
+| :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **GAONENG GNB 3S 11.1V 3500mAh 70C** | 3500 mAh | **3 mOhm** | *wird ermittelt* | 🟢 Top | 2026-09-09 | [🔎 Alle Messungen & Graphen](./GAONENG/GNB_3S_3500_70C/) |
+
+---
+
+## 🛠️ Test-Equipment & Verfahren
+* **Ri-Messung:** DC-Innenwiderstand (Direktstrom-Methode) bei vollgeladenem Akku (4.2V pro Zelle).
